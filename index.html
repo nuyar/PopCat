@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script src="script.js"></script>
+		<style>
+			.divtext, aside, aside>div {
+				display: inline-block;
+				border: 3px solid orange;
+				overflow: auto;
+			}
+			
+			.divtext {
+				height: 100%;
+				width: 65%
+			}
+			
+			.wrapper {
+				width: 100%;
+				text-align: center;
+			}
+			
+			.textin {
+				width: 5em;
+			}
+			
+			p {
+				margin: 0;
+			}
+		</style>
+	</head>
+	<body onload="load();">
+		<button onclick="play();">Play Sound</button>
+		<div>
+			<img id="open" src="open.png" />
+			<img id="close" src="close.png" />
+		</div>
+		<span id="vol" style="display:none;"></span>
+	</body>
+</html>
