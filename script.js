@@ -54,10 +54,4 @@ function play() {
 			m = Math.max(m,ii[0]);
 		return m;
 	};
-
-
-
-	//loop
-	analyserNode.getFloatFrequencyData(this.fftData);analyserNode.getFloatFrequencyData(fftData);
-	max(fftData)
 }
